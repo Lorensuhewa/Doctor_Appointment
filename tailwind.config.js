@@ -11,6 +11,9 @@ export default {
         secondary: '#ffcc00',
         danger: '#e74c3c',
       },
+      gridTemplateColumns:{
+        'auto': 'repeat(auto-fill, minmax(300px, 1fr))',
+      }
     },
   },
   plugins: [],
